@@ -92,6 +92,7 @@ main {
   background: transparent;
   padding: 10px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .google-logo {
