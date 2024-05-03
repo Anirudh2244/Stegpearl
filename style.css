@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --btn-left-color: #3670fd;
+  --btn-right-color: #4f12de;
+  --link-color: #3873fd;
+  --light-color: #9492b4;
+  --border-color: #b1b0c4;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  /* background: grey; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: -7px;
+}
+
+.heading p {
+  color: var(--light-color);
+}
+
+.input {
+  border-radius: 5px;
+  border: 2px solid var(--border-color);
+  padding: 5px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.remember-forgot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.or-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 20px;
+}
+
+.or {
+  position: absolute;
+  background: white;
+  padding: 5px;
+  color: var(--light-color);
+}
+
+.or-section hr {
+  position: absolute;
+  color: black;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--light-color);
+  background: transparent;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.google-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.btn {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    var(--btn-left-color),
+    var(--btn-right-color)
+  );
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--light-color);
+}
